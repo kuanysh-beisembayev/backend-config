@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "backend-config"
+version = "0.1.0"
+description = ""
+authors = ["kuanysh-beisembayev <kuanysh.beisembayev@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pydantic-settings = "^2.2.1"
+flake8 = "^7.0.0"
+flake8-print = "^5.0.0"
+flake8-multiline-containers = "^0.0.19"
+flake8-builtins = "^2.2.0"
+flake8-import-order = "^0.18.2"
+flake8-commas = "^2.1.0"
+flake8-quotes = "^3.4.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
